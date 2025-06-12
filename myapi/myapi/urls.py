@@ -21,5 +21,5 @@ from products.views import product_list
 from django.conf import settings
 
 urlpatterns = [
-    path('api/v1/products/', product_list),
+    path('api/v1/products/', product_list, name='product_list'),
 ]
